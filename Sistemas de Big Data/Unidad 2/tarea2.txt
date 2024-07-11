@@ -1,0 +1,70 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Andrés estudió el Grado Superior "Desarrollo de Aplicaciones Web" y desde hace unos años trabaja en el equipo de desarrollo de la empresa Aseguradora Zaidín-Vergeles que tiene una alta implantación en todo el territorio español.
+Hasta el momento su trabajo ha consistido en participar en proyectos de desarrollo de aplicaciones web sobre  un RDBMS de Oracle.
+A principios de año asistió a una presentación del Product owner de la empresa en la que se anunciaron nuevos cambios para poder gestionar el crecimiento acelerado del volumen de datos que se viene produciendo en los últimos años.
+A muy largo plazo se plantea una migración del core tradicional a una nueva arquitectura basada en microservicios, eventos y NoSQL, aunque esta migración es muy compleja y se requerirán unos 3 años para completarla. Durante este periodo ambos sistemas tendrán que convivir.
+A corto plazo, y dada la necesidad de responder al desafío del volumen de datos generados, se adoptará una solución intermedia desarrollando las aplicaciones sobre una base de datos NoSQL. Esta base de datos se nutrirá de los datos necesarios del sistema relacional y los nuevos proyectos de desarrollo se realizarán y se pondrán en producción sobre esta nueva base de datos. El nuevo enfoque de la empresa será Data Driven.
+La empresa ha elegido MongoDB Atlas priorizando Saas sobre Paas y sobre Iaas. Esto permitirá a los equipos  centrarse en la programación abstrayéndose de la tecnología subyacente y de la administración de esta. También se ha elegido por ser una tecnología Open Source con un buen soporte empresarial.
+A Andrés le gustaría participar en este nuevo proceso  por lo que, tras la presentación, empezó a investigar sobre la solución MongoDB Atlas y está haciendo también unos cursos del lenguaje de consultas de MongoDB. 
+
+¿Qué te pedimos que hagas?
+Genera un documento PDF que responda a las preguntas y prácticas que se te plantean a continuación.
+
+Pregunta 1. Responde a las siguiente preguntas. Para tus respuestas apoyate en la documentación de MongoDB, MongoDB Manual.
+
+       1.1 ¿Tiene MongoDB un esquema flexible? Si la respuesta es afirmativa explica qué significa y pon un ejemplo.
+
+       1.2 ¿MongoDB soporta escalado vertical u horizontal? Explica como lo consigue y con que componentes. 
+
+       1.3  ¿La estrategia de replicación en MongoDB es maestro-esclavo o peer-to-peer?
+
+Práctica 1. MongoDB Atlas.
+
+Antes de realizar la práctica lee la página principal de MongoDB Atlas para hacerte una idea de las características y el potencial de la herramienta que vamos a probar.
+
+En esta práctica debes crear un cluster de prueba con MongoDB Atlas. En la web MongoDB Atlas pulsa el botón Try Free. A continuación puedes registrarte con la cuenta corporativa del instituto.
+
+Para crear el cluster sigue las instrucciones de la documentación Get Started with Atlas, MongoDB Atlas o las instrucciones del siguiente vídeo How to deploy a free MongoDB cluster.
+
+Ten en cuenta el siguiente requisito para el despliegue:
+
+- Para conectarte al cluster desde la máquina local hay diferentes estrategias. Nosotros utilizaremos Shell seleccionando el botón I don´t have the MongoDB Shell installed y descargando mongosh 1.10.6 en nuestro equipo.
+
+Una vez desplegado el cluster y cargado el dataset de ejemplos, pulsa el botón Browse Collections. En esta nueva pantalla podrás observar la lista de bases de datos de ejemplo y realizar operaciones de inserción, búsqueda o agregaciones en ellas, así como crear nuevas bases de datos y colecciones. Haz una prueba creando una base de datos denominada Iabd y una colección denominada modulos. Si quieres saber más sobre como operar desde la interfaz de usuario de Atlas visita el siguiente enlace: Interactuar con sus datos.
+
+Como resultado de esta práctica debes añadir al documento una captura de pantalla de esta última pantalla en la que se vea claramente tu nombre y tu correo (desplegando el usuario en la esquina superior derecha) y la lista de las bases de datos en la que se observe claramente la base de datos Iabd y la colección modulos.
+
+Práctica 2. Conexión al cluster de MongoDB Atlas y lenguaje de consultas de MongoDB.
+
+Enunciado.
+
+En la práctica 1 hemos instalado mongosh en nuestro equipo. Si todo ha ido bien bastará ejecutar desde la consola la cadena de conexión. Esta cadena de conexión la puedes copiar en las instrucciones de conexión en MongoDB Atlas (Database, botón Connect-Shell).
+
+La práctica consiste en realizar una serie de consultas, desde la shell de comandos, sobre la base de datos de ejemplo sample_restaurants y su colección restaurants.
+
+Para la búsqueda de las operaciones que tienes que realizar utiliza, en primera instancia, el manual de MongoDB, https://www.mongodb.com/docs/manual/.
+
+Prueba desde la consola los siguientes comandos.
+
+
+- Mostrar bases de datos: show dbs
+
+- Mostrar base de datos en uso: db
+
+- Cambiar la base de datos: use sample_restaurants
+
+- Mostrar colecciones: show collections
+
+
+En el documento PDF de la tarea debes incluir las siguientes preguntas. En la respuesta incluye el comando ejecutado y el resultado de este.
+
+ 
+1. Obtén el número total de documentos de la colección restaurants. Escribe el resultado.
+
+2. Busca todos los restaurantes de cocina española (valor “Spanish”). Como resultado escribe el nombre del restaurante y el barrio del primer documento obtenido en esta consulta.
+
+3. Mostrar solo los nombres de los restaurantes de cocina portuguesa (valor “Portuguese”) que se encuentren en el barrio de “Queens”. Utiliza una proyección para obtener el resultado. Project Fields to Return from Query.
+
+4. Muestra el nombre y el barrio de los restaurantes que tengan una valoración mayor de 90 puntos. Escribe el resultado.

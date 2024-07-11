@@ -1,0 +1,67 @@
+1.- Descripción de la tarea.
+
+Caso práctico 
+Sigues trabajando en el servicio de TI en la Delegación de Educación de Granada. 
+
+Acabas de realizar una tarea en la que has generado un archivo CSV con el resumen de la Plantilla Orgánica de Andalucia por Centro y las coordenadas (longitud y latitud) de cada uno de los centros.
+
+Has debido de comprobar la importancia del dato. El primer paso para hacer un  análisis correcto es la comprensión de los datos con los que trabajas.
+
+La plantilla orgánica constituye un instrumento organizativo, similar a la relación de puestos de trabajo, que contiene el número de plazas con el que cuenta cada uno de los centros y servicios educativos con indicación del cuerpo y especialidad (puesto) y que sirve como base para el cálculo de las plazas vacantes en cada curso escolar.
+
+Habrás analizado, por tanto, que el CSV plantillaorganica2223, descargado del portal de datos abiertos de la Junta de Andalucía, nos da una lista de los centros públicos de Andalucía detallados por las plazas de profesores (plantilla) según las categorías del profesorado CUERPO y PUESTO, para cada centro público en una localidad y provincia de Andalucía. El total de filas de este archivo es 35656, con 11 cuerpos distintos y 320 puestos dentro de esos cuerpos. Una vez agregados los datos por centro habrás obtenido 3744 filas, una fila por centro, que es el número de centros públicos que están recogidos en ese CSV y su total de profesores.
+
+Por otro lado te has servido de otro CSV descargado del portal de datos abiertos del Gobierno de España. Este archivo es un directorio de centros de Andalucía que no incluye solo los centros públicos sino que también relaciona los centros privados y los concertados. Este archivo tiene 7100 filas. La diferencia entre ambos CSVs, por tanto, es conceptual. Es evidente que uno tiene más filas que otro.
+
+Cuando hayas combinado ambos CSVs para añadirle a los centros de la plantilla orgánica su latitud y longitud has debido concluir que en el directorio faltan 177 centros de los incluidos en el archivo de la plantilla orgánica. Tu trabajo como analista, con respecto al archivo final, consiste en decidir que haces con estos 177 centros faltantes. Quizá debes buscar esa información que te falta, o examinar esos 177 centros y detectar que no son centros de enseñanza propiamente dichos. Por tanto, dependiendo de la decisión que tomes puedes obtener un archivo final con 3744 filas que tendrá 177 filas con la latitud y longitud nulas (puede que para rellenarlas después) o un archivo final sin estos 177 centros.
+
+El lenguaje R ha debido ayudarte a obtener toda esta información y a generar el archivo final.
+
+Ahora nos planteamos otro reto. Vamos a genera un Informe con Power BI que nos permita mostrar esta información de otra manera, de manera visual. 
+
+¿Qué te pedimos que hagas?
+Entrega:
+
+Un vídeo de 10 minutos máximo a modo de tutorial. En él explicarás paso a paso como has realizado la tarea, desde la obtención de los datos en Power BI, transformaciones necesarias, modelado y visualización. 
+Un PDF que subirás a la tarea con  el enlace al vídeo y un anális de datos escrito (breve, completo y conciso) obtenido de la información del cuadro de mandos elaborado. 
+Datos:
+
+      Los datos de origen son plantilla2223, en la carpeta compartida https://drive.google.com/drive/folders/18BCABqsMSo9whtGX4UKHP9eiAfNSqRn3?usp=sharing y el directorio de centros 22-23 que ya tendrás descargado de la tarea anterior.
+
+Tarea:
+
+La tarea consiste en implementar un cuadro de mando (Informe) con la herramienta Power BI Desktop. El informe tendrá como nombre tu nombre completo.
+
+En este cuadro de mando pretendemos analizar la Plantilla orgánica de los centros públicos de Andalucía que ya analizamos en la tarea de la Unidad Temática 4 mediante el lenguaje R. 
+
+Requisitos del cuadro de mando:
+
+1. Datos.  Tendremos dos tablas, plantilla2223, con la columna Centro dividida en CODIGO y NOMBRE_CENTRO, y da_centros con las columnas CODIGO, LATITUD Y LONGITUD. 
+
+2. Modelo. Ambas tablas estarán relacionadas por el campo código.
+
+3. Informe.
+
+El informe tendrá dos páginas:
+
+Página 1:
+
+- Logo de la Junta de Andalucía y Título Plantilla orgánica de Andalucía.
+
+- Visualizaciones. Las más apropiadas para mostrar:
+
+Total de plazas.
+Plazas  por cuerpo.
+Plazas por provincia.
+Plazas por cuerpo y por provincia.
+Filtro del informe por provincia.
+Esta página estará  ordenada, los colores serán consistentes. Cada visualización tendrá un título apropiado. 
+
+Página 2:
+
+Esta página mostrará un mapa de Andalucía con burbujas que representen cada uno de los centros de Andalucía.
+
+Logo de la Junta de Andalucía y Título Mapa de Centros.
+El color de las burbujas variará para cada provincia.
+Tendrá botones de zoom.
+El ToolTip que mostrará cada burbuja es similar al siguiente:

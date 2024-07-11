@@ -1,0 +1,68 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Lorena es uno de los miembros del equipo técnico que Pick&Deliver acaba de lanzar para mejorar los procesos logísticos y de negocio a través de la aplicación de técnicas de inteligencia artificial y ciencia de datos. Lleva un tiempo investigando la programación de modelos de aprendizaje automático, para entrenar modelos computacionales según el patrón de comportamiento subyacente en los datos recogidos de métricas de los sistemas de la empresa o de otros casos similares en otras organizaciones.
+En concreto, ahora está concentrada en estudiar la aplicación de redes neuronales profundas, pues es una solución muy potente para casos de datos no estructurados, como son las imágenes o el lenguaje natural típico de comentarios o escritos humanos.
+Tras leer documentación y ver algunos ejemplos, se decide a programar desde cero su primera red neuronal profunda, utilizando el paquete Keras, de Tensorflow.
+La imagen que encabeza este texto está generada por el modelo de inteligencia artificial DALLE2 a partir del texto "Ilustración de una red neuronal profunda con pulsos eléctricos y puertas lógicas controlando un gran almacen" (para utilizar este modelo es necesario apuntarse a la lista de espera y recibir invitación).
+    
+¿Qué te pedimos que hagas?
+Apartado 1: Carga y explora el dataset CIFAR10
+
+
+Inicia un nuevo notebook, preferiblemente en Google Colab. Para guiarte en el proceso, puedes utilizar este cuaderno-guía con algunas sugerencias de fragmentos de código indicados en las celdas de texto, pero tendrás que escribir el código en la celda de código correspondiente y ejecutarlo.
+En dicho cuaderno encontrarás buena parte del código necesario pero no todo.
+Importa la librerías Numpy.
+Importa los módulos necesarios para construir una red neuronal profunda: Sequential, Dense y Flatten.
+Apartado 2: Importa el dataset CIFAR10 de Keras, en un conjunto de datos de entrenamiento y un conjunto de datos para test.
+
+Importa el dataset CIFAR10
+Consulta la documentación de Keras relativa a este dataset para entender cómo están organizados los datos y saber importarlos. 
+Añade una celda de texto donde expliques el contenido de dicho dataset.
+Apartado 3: Explora los datos.
+ 
+Explora los datos, especialmente, las dimensiones del dataset y explica con una celda de texto los datos obtenidos.
+Aplica normalización a los datos de entrada. Explica en que consiste dicha normalización.
+Aplica la técnica one-hot encoding al conjunto de datos de salida. El cuaderno-guía proporcionado, contiene un error para este apartado, referente a la función to_categorical. Tendrás que investigar donde encontrar dicha función. Explica en que consiste el one-hot encoding.
+En general, aplica las funciones necesarias para entender cómo son los datos para poder crear el modelo de forma adecuada y entender también los resultados del entrenamiento.
+Visualiza una de las imágenes y su clase.
+ 
+Apartado 4: Crea el modelo.
+ 
+
+Genera un modelo con la clase Sequential.
+Añade el menor número de capas posible, utilizando las clases Dense y Flatten.
+ 
+
+Apartado 5: Entrena el modelo.
+ 
+Configura el modo de entrenamiento con el método compile.
+Utiliza la función loss = 'categorical_crossentropy'.
+Selecciona el optimizador Adam.
+Utiliza la función fit para entrenar el modelo, con un máximo de 20 epochs.
+ 
+
+Apartado 6: Mejora el modelo.
+ 
+
+Crea un nuevo modelo con más capas y mayor número de neuronas.
+Entrénalo utilizando un número mayor de epochs y analiza el resultado.
+Haz varias pruebas y quédate con el modelo que mejores resultados da. Añade una celda de texto y responde a la pregunta: ¿Has conseguido mejorar la precisión?
+ 
+
+Apartado 7: Evalúa el nuevo modelo.
+ 
+
+Utiliza el método evaluate para ver la precisión que se alcanzaría con datos nuevos, aplicándolo al conjunto de datos de test.
+Añade una celda de texto y responde a la pregunta: ¿Es muy diferente a la precisión alcanzada en el entrenamiento?
+ 
+
+Apartado 8: Visualiza las predicciones.
+ 
+
+Explora de forma visual la precisión que se consigue con ambos modelos, representando las primeras 25 imágenes del conjunto de datos de test, y comparando la etiqueta real con la de la predicción.
+En la guía tienes un script sugerido para ayudarte con el código.
+Comenta los resultados obtenidos.
+NOTA IMPORTANTE
+
+Para todos los apartados es necesario incluir las capturas de pantalla de los principales pasos realizados en el documento de la entrega. En dicha presentación, incluir enlace abierto al notebook con el código para que cualquier persona con el enlace pueda acceder a él.

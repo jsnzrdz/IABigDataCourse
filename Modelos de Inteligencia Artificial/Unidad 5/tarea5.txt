@@ -1,0 +1,33 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+— ¿Habéis visto lo que se puede llegar a crear con los generadores de imágenes inteligentes y de textos que ya hay desarrollados y disponibles por Internet? — Eva estaba impresionada y muy ilusionada tras el descubrimiento de varias herramientas en Internet que le había recomendado su amiga Max.
+
+— La combinación de estilos, aplicada a imágenes que puedo crear yo, o tomar prestadas, para dar nuevos y sorprendentes resultados... ¡Me encanta! — Insistió sin dejar apenas hablar a sus amigos.
+
+— La verdad es que asusta un poco — dijo Miguel — . En poco tiempo no vamos a saber ya qué es auténtico y qué no... 
+
+— ¡Es que nada deja de ser auténtico aunque lo pases o lo generes a través de Inteligencia Artificial! — Replicó Eva — . Lo que pasa es que ahora el concepto "autor" individual se diluye un poco y entra en juego la programación. ¿No es un arte también, en cierto sentido, la programación?
+
+Nuestros tres amigos se enfrascaron en una conversación sobre creatividad, derechos de autor, autenticidad... que inevitablemente acabó en cuestiones éticas sobre los límites de la Inteligencia Artificial en el ámbito de la creación de imágenes y textos.
+
+Así que se propusieron un desafío: ver hasta dónde podían llegar en la creación de imágenes y textos que pudieran servir para una campaña de publicidad de algún producto. Todo a base de herramientas programadas con Inteligencia Artificial.
+En clase les han hablado de la herramienta Teachable Machine, que tiene bastante buena pinta. Para una primera aproximación se van a centrar en tres signos concretos: la A, la B y la C en el lenguaje de signos. Así que se organizan el trabajo: Miguel tiene que conseguir el mayor número de imágenes del signo A, Eva del de la B y Max del de la C.
+¿Qué te pedimos que hagas?
+Apartado 1: Generación de imágenes
+Elige un producto que quieras promocionar y busca una imagen suya en Internet, o dibújala y pásala a tu dispositivo.
+Accede a deepdreamgenerator.com y genera la imagen de tu producto (dale a "Generate" y sigue las instrucciones). 
+Captura de la portada de la web Deep Dream Generator
+Fran Bartolomé - Deep Dream Generator (Dominio público)
+Apartado 2: Generación de texto.
+Define la frase o slogan de tu producto.
+Accede a Copy.ai, tendrás que registrarte para poder generar los textos de tus campañas publicitarias.
+Crea con la herramienta varios mensajes para anuncios de tu producto (Ad Copy Variants). Tendrás que escribir el nombre de tu producto, una breve descripción y seleccionar el tono en el que quieres que se generen los mensajes.
+Captura de la pantalla de inicio de la web Copy.ai
+Fran Bartolomé - copy.ai (Dominio público)
+Apartado 3: Conclusión
+Explica los posibles riesgos legales y éticos de la aplicación de Inteligencia Artificial en este ejemplo.
+¿Has detectado algún sesgo de género en el resultado ofrecido por la herramienta? Si es así ¿Cómo podría corregirse?
+NOTA IMPORTANTE
+
+Tendrás que sacar pantallazos de tu ejercicio en Teachable Machine para incorporarlos al documento que entregarás como tarea. De manera que quien corrija la tarea podrá ver las imágenes que hayas capturado. Valora bien antes de iniciar el ejercicio qué objetos y qué entorno utilizas en relación a tu privacidad. 

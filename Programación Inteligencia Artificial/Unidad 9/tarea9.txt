@@ -1,0 +1,27 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Elena, CEO de la empresa de logística y transporte Pick&Deliver, ha sido ponente en una mesa redonda dedicada a modelos de negocio en la era de la convergencia tecnológica. Tras varias ponencias, llega un descanso en el evento, en el que Elena aprovecha para ir a por un café y saludar a algunas personas con las que habló la anterior edición de dicho evento el año pasado.
+Mientras habla con una diseñadora de imagen de marca, se les acerca un hombre, y tras saludarlas, le cuanta a Elena su caso "Me llamo Ramón. Tengo una pequeña fábrica de jamón curado, y estoy queriendo hacer crecer el negocio, mejorar la presentación en el envasado del jamón cortado, y aumentar la calidad. Te he estado escuchando, y creo que tu experiencia me ayudaría mucho en la transformación que mi negocio necesita".
+Elena le escucha y, a medida que van hablando sobre los procesos y tareas que se llevan a cabo, automáticamente va detectando posibles puntos de mejora gracias a la inteligencia artificial, utilizando robótica e IoT.
+"Además, necesitaría poder garantizar que el corte y envasado del jamón se ha realizado en una fecha concreta, en las condiciones que deben ser y en mi fábrica y no otro lugar" comenta Ramón un poco abatido "No sé si blockchain podría servirme para esto".
+"Sí, claro. Nosotros estamos certificando en la blockchain de Ethereum, a través de un smart contract, que los paquetes salen a una hora y fecha determinados, desde la localización de nuestro almacén, así como la hora, fecha y localización de la entrega al cliente. Los repartidores solo tienen que hacer una foto al entregar la mercancía al cliente, y la propia aplicación añade a la foto los metadatos, ejecutándose el smartcontract y quedando esa información, inmutable, en la cadena de bloques. Hemos conseguido casi eliminar la tasa de disputas y reclamaciones que teníamos gracias a esta aplicación." Le contesta Elena contenta.
+
+
+¿Qué te pedimos que hagas?
+Imagina que eres un emprendedor con acceso a financiación y que puedes conseguir otros socios de perfil técnico para montar un proyecto o empresa innovador. Plantea un modelo de negocio en el que se de la convergencia de varias tecnologías exponenciales.
+
+Apartado 1: Rellena un lienzo de modelo de negocio
+
+Accede al artículo "Herramientas: el lienzo de modelo de negocio" y léelo.
+Entra en la plantilla compartida "Business Model Canvas" y haz una copia en tu Drive siguiendo las instrucciones
+Piensa en una idea de negocio clásico y cómo lo mejorarías con las nuevas tecnologías exponenciales
+Rellena los módulos del lienzo de negocio a partir de la primera imagen que has formado de tu idea de negocio. 
+Apartado 2: Segunda iteración y justificación.
+
+Describe el negocio a grandes rasgos a alguien que conozcas o en un breve párrafo de un documento que adjuntarás al lienzo.
+Según hablabas sobre tu idea, ¿Te han surgido dudas o cosas que cambiarías?.
+Rellena de nuevo el lienzo de modelo de negocio o cambia lo que quieras tras haberlo descrito o presentado. Esa será la entrega de la tarea junto a un documento explicativo de lo que consideres más relevante.
+NOTA IMPORTANTE
+
+Cuando tengas listo tu lienzo de Modelo de Negocio, descárgalo en formato PDF e inclúyelo en tu entrega. Puedes entregar un documento explicativo PDF a parte, pero las entregas que no lleven el lienzo con todos los módulos rellenos, no serán corregidas.

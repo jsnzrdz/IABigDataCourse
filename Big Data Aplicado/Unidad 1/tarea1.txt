@@ -1,0 +1,58 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Roberto es el Director de Tecnología de una gran empresa de transportes.
+En el Comité de Dirección tomaron la decisión de modernizar la empresa y tener una estrategia data-driven, que consiste en basar toda la toma de decisiones en los datos, y en utilizar todos los datos disponibles para generar valor, como optimizar las operaciones, reducir los gastos de mantenimiento, etc.
+Roberto, a recomendación de su amiga María, comenzó a investigar sobre Apache Hadoop, ya que es la plataforma que podría resolver todos los casos de uso que le plantea su Comité de Dirección.
+Tras unas semanas de investigación y de conocimiento de lo que es Hadoop, cómo funciona y cuándo utilizarlo, se dispone a evaluar si ha aprendido lo suficiente sobre esta plataforma antes de decidirse a instalarlo en su empresa.
+
+¿Qué te pedimos que hagas?
+Para esta tarea no es necesario instalar ningún software, sino que se trata de razonar una serie de preguntas relacionadas con Apache Hadoop.
+
+Pregunta 1 
+
+Razona qué diferencias hay entre una plataforma y una solución Big Data.
+
+Pregunta 2
+
+Describe cómo consigue Hadoop la escalabilidad. Indica, además, qué tipo de escalabilidad es la que Hadoop ofrece.
+
+Pregunta 3
+
+Razona qué se considera hardware commodity, qué beneficios aporta que un sistema utilice este tipo de hardware, y qué dificultades supone.
+
+Pregunta 4 
+
+Describe qué componentes del ecosistema Hadoop utilizarías para implementar una arquitectura con los siguientes requisitos:
+
+Debe ser capaz de almacenar un volumen de datos de 1 petabyte.
+
+La información que almacenará tendrá diferentes tipos, desde ficheros binarios a ficheros de textos estructurados.
+
+Debe permitir ingestar datos de tres bases de datos relacionales de los sistemas operacionales.
+
+Los procesos de ingesta deben ser ejecutados de forma planificada, todos los días a las 12 de la noche. Una vez ingestados los datos, se debe lanzar un proceso que generará un resumen diario que requiere procesar todos los datos ingestados en el día.
+
+Además, la arquitectura debe permitir obtener datos de 100 sensores que realizan una medida cada segundo.
+
+La arquitectura debe ofrecer una herramienta de gobierno de datos.
+
+Sobre los ficheros de datos obtenidos de las bases de datos relacionales, la arquitectura debe ofrecer la capacidad para poder realizar consultas en un lenguaje similar a SQL.
+Pregunta 5
+
+En el caso de una startup que tiene una previsión de almacenar y procesar 500 terabytes de datos en los próximos 6 meses, razona qué tipo de solución Hadoop sería la más apropiada (cloud o una distribución comercial en una infraestructura de servidores propia).
+
+Pregunta 6
+
+Razona cuáles son las principales dificultades que un sistema distribuido tiene frente a un sistema centralizado.
+
+Pregunta 7
+
+Razona la conveniencia de utilizar Hadoop para el siguiente caso de uso:
+
+Se pretende almacenar y analizar 500 gigabytes de datos.
+Pregunta 8
+
+Razona la conveniencia de utilizar Hadoop para el siguiente caso de uso:
+
+Se pretende recoger los datos de 2.000 sensores de temperatura que realizan una toma cada segundo y combinarla con los datos de producción de 10 fábricas para montar modelos predictivos de fabricación. Además, se quiere realizar un cuadro de mando con la información por áreas geográficas.

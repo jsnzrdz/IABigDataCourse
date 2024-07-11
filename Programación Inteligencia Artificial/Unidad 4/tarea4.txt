@@ -1,0 +1,68 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Lorena ha estado leyendo bastante documentación para identificar las librerías que contienen funciones adecuadas al tipo de solución que necesitan en Pick&Deliver.
+Muchos miembros de la comunidad comparten a diario distintos desarrollos con modelos de aprendizaje automático, y Lorena ha ido detectando los paquetes que se suelen utilizar en estos desarrollos. para coger algo de práctica, se propone probar las funciones que le parecen más interesantes de las librerías más famosas.
+Para poderse concentrar en aplicarlas bien, decide recurrir a un conjunto de datos sencillo y muy contrastado, que permite detectar un patrón muy concreto entre los datos y así comprobar que los algoritmos están funcionando.
+"El dataset de las especies de la flor iris es justo lo que necesito ahora", piensa Lorena "voy a probar las librerías Pandas, Matplotlib y Scikit-learn con estos datos, a ver qué tal se me da".
+    
+¿Qué te pedimos que hagas?
+
+¿Qué te pedimos que hagas?
+
+    Apartado 1: Explora los datos con Pandas
+
+
+        Inicia un nuevo notebook, preferiblemente en Google Colab. Para guiarte en el proceso, puedes utilizar este cuaderno-guía con los fragmentos de código indicados en las celdas de texto, pero tendrás que escribir el código en la celda de código correspondiente y ejecutarlo.
+        Importa las librerías Numpy y Pandas.
+        Importa la biblioteca de datasets de Scikit-learn.
+        Ejecuta función load_iris de dicha biblioteca, almacena su resultado y echa un vistazo rápido a sus principales elementos 'data', 'feature_names', 'target' y 'target_names'. Investiga sobre este dataset: contenido y estructura, significado, etc
+        Utiliza la clase DataFrame de Pandas para crear el dataset df, que contendrá los datos guardados en 'data' y utilizando los nombres de columnas almacenados en 'feature_names'
+        Añade la columna "Species" a partir de la secuencia de datos 'target' .
+        Añade la columna "Species_Name', a partir de la secuenca 'target_names'. Utiliza la función head para ver los primeros registros del nuevo dataset.
+        Utiliza la función describe para ver los principales valores estadísticos del dataset.
+
+Tras realizar este apartado, el DataFrame debe quedar de la forma:
+
+Dataframe a partir de la transformación del Dataset Iris
+
+    Apartado 2: Visualiza los datos con Pyplot.
+
+        Utiliza el paquete Pyplot para hacer representaciones gráficas de los datos. Importa Pyplot de la librería Matplotlib y crea una figura tipo "dispersión de puntos" (Scatter plot) con la variable sepal length (cm) en el eje x y la variable sepal width (cm) en el eje y.
+        Crea otra figura distinguiendo con el color azul la especie "Setosa", con el color verde la especie "Versicolor" y con color rojo la especie "Virginica".
+        Añade las leyendas oportunas a la gráfica y ejes.
+        Representación grafica de las muestras atendiendo a los sépalos.
+        Analiza cómo se distribuyen los casos si, en vez de representar según las variables de las dimensiones de los sépalos, utilizas las variables basadas en las dimensiones de los pétalos. Representa los datos en una figura tipo scatter, utilizando en el eje x la variable "petal length (cm)" y en el eje y la variable "petal width". De nuevo, distingue las especies con tres colores: color azul la especie "Setosa", con color verde la especie "Versicolor" y con color rojo la especie "Virginica".
+        Análisis según los pétalos
+        Reflexiona sobre los resultados arrojados por las distintas representaciones, realiza otras representaciones si las consideras de interés. ¿Qué propiedades nos permiten diferenciar mejor las muestras?
+
+    Apartado 3: Entrena modelos de aprendizaje automático con Scikit-learn.
+     
+        Importa los módulos de la librería Scikit-learn que nos permiten hacer un modelo de regresión lineal, un modelo de máquina de vectores soporte, un modelo de tipo los K vecinos más cercanos (KNN), y un modelo de tipo árbol de decisión.
+        Genera el conjunto de datos X con las variables de entrada a los modelos, y el conjunto y de las etiquetas o variable de salida del modelo, eligiendo para éste último, la variable "Species".
+        Separación de datos
+        Utiliza la función train_test_split para separar los datos en el conjunto train y test, utilizando el 70% de las muestras para el entrenamiento.
+        Crea un modelo de Regresión Logística. Utiliza la función fit para entrenarlo y utiliza la función predict sobre los datos de test para medir la precisión del modelo. Muestra el valor de dicha precisión con print.
+        Crea un modelo de SVC o Máquinas de Vectores de Soporte, entrénalo y calcula la precisión utilizando los datos de test. Muestra la precisión.
+        Crea un modelo de KNN o K vecinos más cercanos, entrénalo y calcula la precisión utilizando los datos de test. Muestra la precisión.
+        Crea un modelo de árbol de decisión, entrénalo y calcula la precisión utilizando los datos de test. Muestra la precisión.
+        Compara los valores de precisión que has ido consiguiendo en los diferentes modelos. Crea una tabla con los distintas precisiones. Repite el proceso para varias agrupaciones de entrenamiento-test y compara las precisiones. ¿Qué modelo sería el mejor para este dataset?
+         
+    Apartado 4: Entrena modelos de aprendizaje automático con pocas variables.
+
+     
+        Imagina que no has podido tener todas las variables, y que solo has conseguido los valores de las medidas de los sépalos, y con esos datos debes entrenar un modelo que acierte con el tipo de especie de flor de iris. Para ello, crea un nuevo dataset que tenga solo las columnas de las dimensiones de los sépalos y la de la especie.
+        Separa los datos en X_sepalo para las variables de entrada e y_sepalo para la variable de salida.
+        Solo disponemos de los atributos del sepalo
+        Separa los datos en un conjunto X_train_s, X_test_s,y_train_s, y_test_s, para entrenamiento y test del modelo.
+        Crea, entrena y mide la precisión de un modelo de Regresión Logística. Muestra la precisión. ¿Es muy diferente al mismo modelo del apartado anterior?.
+        Crea, entrena y mide la precisión de un modelo de Máquinas de Vectores Soporte. Muestra la precisión ¿Es muy diferente al mismo tipo de modelo del apartado anterior?.
+        Crea, entrena y mide la precisión de un modelo de K vecinos más cercanos. Muestra la precisión ¿Es muy diferente al mismo tipo de modelo del apartado anterior?.
+        Crea, entrena y mide la precisión de un modelo de Árbol de decisión. Muestra la precisión ¿Es muy diferente al mismo tipo de modelo del apartado anterior?.
+        Compara los valores de precisión que has ido consiguiendo en los diferentes modelos. ¿Cuál sería el mejor para este dataset?.
+
+NOTA IMPORTANTE
+
+Para todos los apartados es necesario incluir las capturas de pantalla de los principales pasos realizados en el documento de la entrega, aportando comentarios enriquecedores, reflexiones, análisis de los resultados obtenidos, problemas surgidos, soluciones adoptadas, sitios de interés consultados para documentarse para cada apartado, etc..
+
+En dicha presentación, incluir enlace abierto al notebook con el código para que cualquier persona con el enlace pueda acceder a él.

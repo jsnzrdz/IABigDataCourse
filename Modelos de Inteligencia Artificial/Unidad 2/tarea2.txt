@@ -1,0 +1,24 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Miguel quiere ser capaz de solucionar un montón de problemas de su vida cotidiana a base de máquinas y sistemas de Inteligencia Artificial: una app que le recomiende qué ropa ponerse en función del frío, calor, lluvia o sol que vaya a hacer ese día, un robot que le prepare la comida según los nutrientes que más necesite y los alimentos que más le gustan... 
+
+Pero de momento lo único que sabe de Inteligencia Artificial es un poco de historia y las diferentes clasificaciones que se están usando. Así que se propone el reto de descubrir qué aplicaciones de su móvil y de herramientas que utiliza habitualmente en su ordenador tienen Inteligencia Artificial. Y acto seguido intenta clasificarlas con lo que ha aprendido hasta ahora.
+
+¿Qué te pedimos que hagas?
+Apartado 1: Busca una herramienta / aplicación basada o que use Inteligencia Artificial
+
+Puede ser la misma que usaste para la tarea de la Unidad 1 o una nueva que te parezca más apropiada y responde a las siguientes preguntas:
+¿Qué tarea resuelve la Inteligencia Artificial?
+Según dicha tarea ¿Es Inteligencia Artificial Débil o Fuerte?
+¿Qué proceso sigue para "aprender"?
+Según dicho proceso ¿La Inteligencia Artificial pertenece a la escuela de pensamiento convencional o computacional?
+Clasifica la Inteligencia Artificial según las categorías de Hintze. 
+Apartado 2: Analiza la herramienta / aplicación
+¿Qué problema resuelve?
+¿Permite automatizar alguna/s tarea/s? ¿Cuáles?
+¿Qué leyes, reglas o normas se utilizan para "educar" a la Inteligencia Artificial?
+¿Resuelve eficazmente el problema? ¿Se podría mejorar su funcionamiento de alguna manera?
+NOTA IMPORTANTE
+
+Para todos los apartados es necesario entregar un documento pdf con capturas de pantalla que ilustren la información escrita. 

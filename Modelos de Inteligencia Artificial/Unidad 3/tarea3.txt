@@ -1,0 +1,25 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Eva quiere probar a hacer un ejercicio teórico sobre Inteligencia Artificial Clásica. ¿Cómo programarían en los años 80 del S.XX una Inteligencia Artificial que fuera capaz de jugar a las damas?
+
+Si fueron capaces de que una máquina jugara al ajedrez (repasa lo explicado sobre Deep Blue), conseguir que una máquina jugara a las damas ¿sería más sencillo? En la medida en que las reglas de las damas son más sencillas que las del ajedrez... parece que sí.
+
+— ¿Cuántas reglas son necesarias para definir perfectamente el juego de las damas? — Se preguntó Eva.
+
+— Necesito una persona experta en el juego para estar segura de que recojo todos los detalles del juego y posibles jugadas — dijo para sí misma — . ¡Voy a llamar a Miguel! Él jugó a las damas en el colegio. ¡Él será mi "experto" para este ejercicio!
+
+¿Qué te pedimos que hagas?
+Apartado 1: Busca un experto en el juego de las damas.
+
+Puedes ser tú mismo/a, si has jugado suficientes veces, o alguna persona de tu entorno que sepa jugar. Puedes ayudarte también de algún tutorial que encuentres en Internet. ¿Qué parte de un sistema experto queda definido gracias al trabajo de dicha persona?
+Apartado 2: Define las reglas del juego de las damas.
+
+Convierte ese conocimiento humano en una serie de reglas o pautas lo más sencillas posibles, asegurándote que abarcas:
+Definición de tablero de juego.
+Definición de piezas (número, colores).
+Tipos de movimiento posibles.
+Posibilidades de comer piezas.
+Creación de reina.
+Objetivo del juego.
+Haz un ejemplo de jugada utilizando encadenamiento hacia adelante.

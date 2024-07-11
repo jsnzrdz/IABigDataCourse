@@ -1,0 +1,46 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Roberto es el Director de Tecnología de una gran empresa de transportes, que va a empezar a utilizar Hadoop para almacenar todos los datos de los sistemas internos, así como los datos de los sensores de los vehículos, para poder implementar casos de uso como como optimizar las operaciones, reducir los gastos de mantenimiento, etc.
+
+Roberto ya conoce a alto nivel Hadoop, y conoce además cómo es el sistema de almacenamiento y de ejecución de aplicaciones (HDFS y YARN), así que se dispone a evaluar si ha aprendido lo suficiente sobre estos sistemas.
+
+¿Qué te pedimos que hagas?
+Pregunta 1
+
+Razona por qué HDFS divide los ficheros en bloques de un tamaño de 128 megabytes y qué supone en términos de rendimiento.
+
+Pregunta 2
+
+Razona por qué HDFS guarda réplicas de los bloques que componen un fichero. ¿Qué se pretende conseguir con ello? ¿Qué puntos negativos tiene la replicación?
+
+Pregunta 3
+
+Describe la secuencia de una lectura en HDFS. Imagina que una aplicación quiere leer un fichero quotations.csv, que ocupa 25 terabytes. ¿Qué pasos se llevarían a cabo entre la aplicación cliente y cada uno de los nodos implicados en la lectura? Acompaña la descripción con un diagrama donde se pueda ver la secuencia de acciones.
+
+Pregunta 4
+
+Escribe la lista de comandos que realizarías para ejecutar estas acciones en un sistema HDFS:
+
+En primer lugar, se debe crear un directorio "datos" dentro del directorio "/user" que contendrá tres subdirectorios "entrada", "copia" y "salida".
+Se visualiza el contenido del directorio "/user".
+Desde el nodo frontera, se va a copiar un fichero "cotizaciones.csv" en el directorio "entrada".
+Se hace una copia del fichero "cotizaciones.csv" en el directorio "copia".
+Se visualiza el contenido del fichero "cotizaciones.csv" del directorio "copia".
+Se pone un factor de replicación 5 al fichero "cotizaciones.csv" del directorio "entrada".
+Pregunta 5
+
+En Google Colab probar el ejemplo de Hadoop mapreduce wordcount con el archivo el_quijote.txt que puedes descargar desde https://gist.github.com/jsdario/6d6c69398cb0c73111e49f1218960f79. 
+          Para realizar esta tarea tienes que crear un cuaderno de Colab con el nombre: apellidosDelAlumn@-nombreDelAlumn@-TareaBDA5..
+
+          En este cuaderno instalarás Hadopp-3.3.6 y configuraras el entorno necesario para ejecutar el ejemplo de Hadoop wordcount utilizando el archivo de texto plano que se te indica.
+
+          El archivo de texto se alojará en el directorio HDFS user/BDA. La salida del ejemplo se alojará también en user/BDA con el nombre salidaWC.
+
+          En el archivo PDF de la tarea tienes que incluir como respuesta a esta pregunta:
+
+La lista de comandos ejecutados para la instalación de Hadoop, la configuración del entorno, los comandos HDFS necesarios para crear la estructura de directorios y el comando de ejecución del ejemplo. Para este apartado ten en cuenta que, en un entorno Hadoop real, el ejemplo no funcionará si la entrada del programa no está en HDFS.
+Una captura de pantalla con el cuaderno de Colab en la que se aprecie claramente el nombre del cuaderno, el contenido del directorio user/BDA, desplegado con salidaWC y las primeras líneas de la salida.
+NOTA IMPORTANTE
+
+Para todas las preguntas es necesario entregar un documento en el que aparezca la pregunta junto con tu respuesta razonada. Incluye cualquier diagrama que consideres interesante para explicar la solución que has desarrollado.

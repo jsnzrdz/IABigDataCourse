@@ -1,0 +1,25 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Los tres amigos y compañeros de clase, Miguel, Eva y Max, están decididos a entrenar una Inteligencia Artificial que sea capaz de "leer" las manos y poder traducir el lenguaje de signos de las personas sordo-mudas.
+
+¡Pero aún no tienen suficientes conocimientos de programación! Así que necesitan utilizar alguna herramienta que ya exista, y a ser posible gratuita, para poder hacer un primer prototipo. Si les sale bien, su idea es mostrárselo a sus profesores y a los responsables de la empresa en la que Eva y Max están haciendo prácticas por si ellos les pueden ayudar después a desarrollarlo ya en condiciones.
+
+En clase les han hablado de la herramienta Teachable Machine, que tiene bastante buena pinta. Para una primera aproximación se van a centrar en tres signos concretos: la A, la B y la C en el lenguaje de signos. Así que se organizan el trabajo: Miguel tiene que conseguir el mayor número de imágenes del signo A, Eva del de la B y Max del de la C.
+¿Qué te pedimos que hagas?
+Apartado 1: Familiarízate con la aplicación web Teachable Machine
+Accede a https://teachablemachine.withgoogle.com/ y revisa la información "¿Cómo se utiliza?"
+Captura del apartado "¿Cómo se utiliza?" en la web de Teachable Machine
+Google (Dominio público)
+Define qué tres objetos, o gestos, o signos, vas a utilizar para el ejercicio de reconocimiento de imagen (te recordamos que tendrás que hacer público el ejercicio para que pueda ser corregido, por lo que desaconsejamos utilizar tu propia cara (gestos) ).
+Apartado 2: Ejercicio de Aprendizaje Automático Supervisado (reconocimiento de imagen)
+Define las tres categorías objetivo.
+Captura las imágenes para cada categoría, o sube al menos 10 imágenes de cada categoría (recuerda que puedes usar la web-cam de tu dispositivo para capturar imágenes, o bien puedes subir imágenes que hayas conseguido por otros medios).
+Entrena el modelo.
+Comprueba su eficacia.
+Apartado 3: Aplicación
+Propón algún robot manipulador en el que se podría aprovechar este modelo de Inteligencia Artificial.
+¿Qué problemas actuales de dicho robot manipulador se resolverían si le incorporáramos esta capacidad de reconocimiento de imagen con Inteligencia Artificial?
+NOTA IMPORTANTE
+
+Tendrás que sacar pantallazos de tu ejercicio en Teachable Machine para incorporarlos al documento que entregarás como tarea. De manera que quien corrija la tarea podrá ver las imágenes que hayas capturado. Valora bien antes de iniciar el ejercicio qué objetos y qué entorno utilizas en relación a tu privacidad. 

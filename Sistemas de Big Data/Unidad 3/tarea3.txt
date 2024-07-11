@@ -1,0 +1,60 @@
+1.- Descripción de la tarea.
+
+Caso práctico 1
+La empresa Jardines Online S.L (para la cual trabajas) se dedica a la venta online de productos de jardín a través de su tienda online.
+
+Sus directivos llevan varios meses evaluando la posibilidad de comenzar a emplear la gran cantidad de datos de los que se dispone con la intención de obtener valor de ellos. En concreto quieren analizar los datos transaccionales producidos por el departamento de ventas.
+
+Su intención es realizar la analítica básica con personal propio y subcontratar la generación de elaboración de perfiles y modelos predictivos a una empresa especializada.
+
+Los datos de los que quieren obtener valor son los siguientes:
+
+Las transacciones realizadas por el departamento de ventas (las ventas online de productos).
+Información relativa a la cuenta que cada cliente ha creado en la tienda online, en la cual se incluyen datos personales.
+Gracias a que cada cliente necesita iniciar sesión con su cuenta para poder hacer compras, la empresa sabe qué ha comprado cada uno. Por lo tanto, a partir de la información que tiene el departamento de ventas (las transacciones de ventas online), la empresa desea ser capaz realizar un perfilado de sus clientes para ser capaz de mostrarles ofertas personalizadas en función de sus gustos. 
+
+La reunión más interesante de los últimos años acaba de terminar y te informan de que se te ha encomendado la misión de generar un documento de análisis de situación que servirá para comenzar con el proceso.
+
+En ese documento te piden hagas determinadas indicaciones acerca de lo que habrá que hacer para estar conformes al RGPD y de actividades de Gobierno de Datos para asegurar que la gestión que se haga de los datos sea la correcta.
+
+¿Qué te pedimos que hagas?
+Utiliza la información que encontrarás en los contenidos de esta unidad  para crear un documento PDF en el que irás resolviendo los siguientes apartados.
+
+Apartado 1: 
+En lo referente a conformidad con el RGPD:
+Indica quién es el interesado.
+Indica quién es el responsable del tratamiento.
+Indica quién es el encargado del tratamiento.
+Indica quién en el destinatario.
+Indica quién es el tercero.
+Indica si será necesario obtener consentimiento de los interesados.
+Indica si será necesario realizar seudonimización de los datos.
+Indica si los usuarios tendrán derecho de acceso sobre sus datos.
+Indica si habrá que hacer algún tipo de comprobación respecto de la empresa subcontratada.
+Indica si será necesario firmar algún tipo de contrato escrito con la empresa subcontratada.
+
+Apartado 2: 
+En lo referente a actividades de Gobierno de Datos para asegurar que la gestión de los datos sea la correcta:
+Indica si los datos podrán ser considerados un activo de la empresa.
+Indica si habrá que realizar una gestión general de riesgos respecto a posibles incidentes.
+Indica si se considera necesario crear una guía de calidad de los datos.
+Indica si debería de haber un Chief Data Officer (CDO) y cuáles serían sus atribuciones.
+Indica qué persona sería el Data Owner (o propietario del dato).
+
+Caso práctico 2
+Ana, en su tiempo libre, está haciendo un MOOC sobre la platafoma Hadoop. Aunque está trabajando gracias a su titulación de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, aspira a cambiar de trabajo y está mirando ofertas como esta Oferta Big Data Engineer - Technical Support - Google Cloud in Barcelona.
+En el módulo de hoy le han explicado someramente que Apache Flume es un software distribuido para recopilar, agregar y mover, de manera eficiente, grandes cantidades de datos  de muchas fuentes diferentes a un almacén de datos centralizado. La verdad es que ha entendido el texto pero cree que se aclararía más si pudiera probarlo. Ha preguntado en el foro del MOOC y una compañera le ha sugerido que cree un cuaderno en Colab y se dispone a hacerlo.
+
+¿Qué te pedimos que hagas?
+
+En esta práctica tienes que crear un cuaderno en Google Colab en el que instalarás Hadoop y Flume, y configurarás el entorno para que ambas herramientas estén operativas.
+
+Para ayudarte con Flume utiliza el archivo Introducción a Flume que hemos subido a la plataforma.
+
+El ejercicio consiste en crear un agente Flume, cuyo source será de tipo spooldir, comprobará un determinado directorio, donde debería de encontrar  un fichero csv, y procesarlo para colocar su contenido en un directorio final de HDFS. Esta acción podrá generar en el destino uno o varios ficheros nuevos. A continuación ejecutarás el agente y comprobarás que su funcionamiento es correcto.
+
+Para el desarrollo de esta práctica necesitarás un fichero csv con un dataset. Puedes descargar alguno que te interese desde la página web: https://www.kaggle.com/datasets.
+
+Entrega:
+
+En el PDF de la tarea que tienes que subir a la plataforma, bajo el epígrafe de la práctica, incluirás el enlace al cuaderno que elabores.

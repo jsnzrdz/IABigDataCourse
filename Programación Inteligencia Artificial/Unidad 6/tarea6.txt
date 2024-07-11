@@ -1,0 +1,37 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Lorena está en pleno proceso de ajuste y mejora de su modelo de deep learning y ha descubierto lo útil que es el kit de monitorización TensorBoard que se llama desde el entrenamiento con el método fit de Keras y que permite visualizar de forma gráfica el comportamiento del modelo. Le ha sorprendido lo sencillo que es cargar la extensión en el notebook en el que está trabajando, y cómo basta con incluir, en fit, el parámetro de callbacks tensorboard_callback.
+    
+¿Qué te pedimos que hagas?
+Apartado 1: Inicializa un proyecto de regresión con TensorBoard
+
+
+Inicia un nuevo notebook, preferiblemente en Google Colab. Para guiarte en el proceso, puedes utilizar este cuaderno-guía con algunas sugerencias de fragmentos de código indicados en las celdas de texto, pero tendrás que escribir el código en la celda de código correspondiente y ejecutarlo.
+Importa la librerías y paquetes necesarios
+Carga la extensión de TensorBoard.
+Crea un dataset de 1000 casos de variables x e y basados en añadir ruido a puntos aleatorios de la recta de ecuación y = 0.4x + 1
+Reservar el 80% de datos para el entrenamiento y el 20% para validación o test.
+Apartado 2: Crea una red neuronal profunda de dos capas con Loss MSE y optimizador SGD.
+
+Crea un modelo basado en una red neuronal de dos capas.
+Configura el entrenamiento utilizando la función de coste del error medio cuadrático (MSE).
+Configura el optimizador SGD
+En el método fit, incluye el parámetro callbacks = (tensorboard_callback) 
+Apartado 3: Lanza TensorBoard.
+ 
+Utiliza la función mágica que lanza TensorBoard: %tensorboard --logdir logs/scalars.
+Investiga sobre TensorBoard.
+Explora las representaciones de las métricas
+A la vista de la evolución de los valores de Loss ¿A qué conclusiones llegas?
+ 
+Apartado 4: Crea el modelo predictivo.
+ 
+
+Genera el modelo predictivo con el método predict().
+Predice los valores para x=60, x=25 y x=2.
+Compara los valores predichos con los calculados de forma exacta con la ecuación de la recta y = 0.4x + 1 y analiza los resultados.
+Realiza alguna representación gráfica que ayude a interpretar los resultados.
+NOTA IMPORTANTE
+
+Es necesario entregar el notebook con los resultados ya ejecutados, y es conveniente entregar una presentación de apoyo con las capturas de pantalla de los principales pasos. En dicha presentación, incluir enlace abierto al notebook con el código para que cualquier persona con el enlace pueda acceder a él.

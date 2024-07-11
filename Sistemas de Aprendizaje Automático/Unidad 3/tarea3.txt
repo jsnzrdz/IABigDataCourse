@@ -1,0 +1,41 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+A Miguel, estudiante en prácticas de Inteligencia Artificial, le han pedido que diseñe una red neuronal profunda para entrenar un modelo de IA que permita clasificar imágenes clínicas de tumores, entre benignos y no benignos. Y dentro de los no benignos que distinga también el grado de peligrosidad o tiempo de reacción disponible para tratarlo con probabilidad de éxito.
+Antes de ponerse "manos a la obra" recuerda que en clase utilizaron una herramienta online de Google, relacionada con Tensorflow, que permitía, precisamente hacer pequeños ensayos o ejercicios sencillos de diseño de redes neuronales para resolver problemas de clasificación.
+
+¿Qué te pedimos que hagas
+Apartado 1: Utiliza la herramienta online playground.tensorflow.org para:
+Encontrar la estructura mínima necesaria para lograr una clasificación exitosa del data set "circle".
+Efectúa captura de pantalla de, al menos, la estructura mínima óptima que consideres (aunque también puedes añadir las de las diferentes pruebas que vayas haciendo).
+Aunque en la propia herramienta online tienes explicaciones de cómo se utiliza, te dejamos aquí alguna muestra:
+
+Captura de pantalla del inicio de la aplicación playground.tensorflow.org
+Fran Bartolomé - Elaboración propia (Dominio público)
+Podemos observar en la columna de la izquierda el tipo de dataset que se va a utilizar para el entrenamiento (distribución en “circle”, en “exclusive or”, “Gaussian”, o “Spiral”). También podemos regular el % de datos que se van a emplear para el entrenamiento vs la comprobación de confiabilidad del resultado, así como el ruido y la cantidad de datos que se empleará en cada iteración.
+
+En la zona central de la aplicación definimos las capas de la red neuronal y cuántas neuronas tendrá cada una de ellas:
+
+Features: Son las propiedades de entrada que buscará el modelo capa de entrada. Para estos ejercicios iniciales no recomendamos usar más de dos datos de entrada.
+Hidden Layers: Son las capas de neuronas ocultas.
+Output: La capa de salida o resultado. Cuando pongamos el modelo a funcionar se irá modificando el fondo separando en dos áreas distintas la distribución de puntos. Así podemos ver en tiempo real si nuestro modelo acierta o no.
+En la banda superior hay posibilidad de ajustar también algunos parámetros aunque para este ejercicio no es necesario.
+
+Proceso: Define número de capas ocultas, y en cada una de ellas el número de neuronas que consideres suficientes. Dale al botón "play" y comprueba cómo en el gráfico de arriba a la derecha se va "dibujando" una línea que separa las zonas probables de encontrar puntos de un color u otro.
+
+Por ejemplo, en este caso, con una capa oculta y dos neuronas en ella, el resultado del entrenamiento no es satisfactorio, pues las áreas de color azul y naranja propuestas por el modelo contienen puntos del color opuesto. Habría que probar a meter más neuronas o alguna capa más:
+
+Captura de pantalla de un resultado no válido del ejercicio propuesto
+Fran Bartolomé - Elaboración propia (Dominio público)
+Apartado 2: Utiliza la herramienta online playground.tensorflow.org para:
+Encontrar una estructura de red neuronal profunda que logre un modelo de clasificación exitoso para el dataset "spiral".
+Efectúa captura de pantalla de, al menos, la estructura mínima óptima que consideres (aunque también puedes añadir las de las diferentes pruebas que vayas haciendo).
+En este caso, que es más complicado, es probable que necesites incorporar algún parámetro de entrada más. Pues por muchas capas y neuronas que incluyas, y por muchas iteraciones (o tiempo de entrenamiento) que dejes pasar, va a ser muy complicado que el entrenamiento proporcione un modelo sin errores. Por ejemplo, en este caso, se aproxima bastante, pero hay algunas áreas con puntos del color contrario y además se observa una inestabilidad importante en la corrección de los parámetros erróneos (gráfica de arriba a la derecha).
+
+Captura de pantalla de un resultado no válido del ejercicio propuesto
+Fran Bartolomé - Elaboración propia (Dominio público)
+Te recomendamos que incluyas algún parámetro de entrada tipo "sin"
+
+NOTA IMPORTANTE
+
+Tendrás que sacar pantallazos de tu ejercicio en playground.tensorflow.org para incorporarlos al documento que entregarás como tarea. De manera que quien corrija la tarea podrá ver las imágenes que hayas capturado.  

@@ -1,0 +1,79 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+El Banco Español de Inversiones, BEI, es uno de los principales bancos nacionales de banca privada de España, con más de 100 años de historia.
+Acaba de implantar un clúster Hadoop para almacenar todos los datos del banco y habilitar nuevos tipos de análisis, desde análisis con visión completa de los diferentes sistemas, hasta la creación de modelos predictivos.
+El clúster es utilizado por más de 20 analistas de negocio y científicos de datos, así como diferentes aplicaciones que ya están ejecutándose para crear cuadros de mando integrales para el consejo de administración, o funcionalidades que se utilizan desde las aplicaciones web del banco en horario 24x7.
+El equipo de IT, liderado por María Robles, debe monitorizar este sistema. Hasta ahora se ha centrado en instalarlo y ha sido reactivo en la gestión de incidencias, pero una vez estabilizado, deben definir cómo van a monitorizar o administrar la plataforma.
+
+¿Qué te pedimos que hagas?
+Esta tarea consiste en generar un documento PDF con las preguntas y respuestas que se te plantean a continuación.
+
+Para responder a las preguntas tienes que crear un clúster en el laboratorio AWS. El nombre del clúster será tu nombre completo, por ejemplo, PilarFernandezHerraiz. Las aplicaciones a instalar serán Hadoop, Hive, Hue, Spark, JupyterHub y Ganglia.
+
+El clúster tendrá 3 nodos centrales y ninguno de tareas.
+
+Aporta una captura de pantalla del clúster Comenzando que verifique los anteriores requisitos.
+
+
+Pregunta 1. Configuración.
+
+1. Investiga, mediante conexión SSH, qué servicios de Hadoop se están ejecutando en el nodo principal y examina también dónde se encuentran, en la implementación de Amazon, los principales archivos de configuración de Hadoop, Hive y Spark.
+
+1.1 Escribe el comando/s que utilices para ver los servicios, y haz una lista que contenga únicamente los servicios disponibles de las aplicaciones que hemos instalado en nuestro clúster y la aplicación a la que corresponden. 
+
+1.2
+
+1.2.1 Escribe la ruta y el nombre de cada uno de los archivos de configuración relacionados en la Unidad Didáctica 4, Apartado 1.
+1.2.2 Indica también si podemos ver el contenido de estos archivos desde la interfaz gráfica de alguna de las interfaces de motorización de Hadoop,  desde cual/cuales de ellas y la ruta.
+1.2.3 Haz una copia de la propiedad YARN en la que se indica el puerto de su interfaz gráfica y, en el caso de Hive, copia la propiedad hive.execution.engine.
+
+Pregunta 2. Tez.
+
+Investiga que es Tez y contesta, de manera resumida y concreta, a qué sustituye, qué aplicaciones pueden usarlo y qué es un DAG.
+
+
+Pregunta 3. Interfaz de HDFS Resourcemanager UI.
+
+3.1 Crea una tabla externa Hive con los datos del archivo casos_diagnostico_ccaa.csv que encontrarás en la carpeta de recursos compartida. Haz una consulta que nos devuelva el número de casos totales por comunidad autónoma. Escribe aquí los comandos.
+
+3.2 Entra en JupyterHub, cuenta por defecto jovyan y jupyter, usuario y contraseña respectivamente.
+
+Crea un cuaderno Spark con las instrucciones del siguiente ejemplo:
+
+
+https://spark.apache.org/docs/latest/sql-data-sources-hive-tables.html
+
+
+Aclaraciones: Solo es necesario hasta la consulta de agregación. No cierres el cuaderno jupyter hasta que finalices esta práctica para que la tarea siga en ejecución.
+
+
+Respuesta: Pega una captura de pantalla completa que muestre el archivo kv1.txt en el warehouse de Hive.
+
+
+3.3 Aporta las siguientes capturas de pantalla completa de ResourceManager UI.
+
+3.3.1 La pantalla principal con las aplicaciones que se han ejecutado.
+
+3.3.2 La pantalla de detalle de la ejecución de la aplicación Hive.
+
+3.3.3 La pantalla de detalle del DAG de Tez correspondiente a la consulta Hive. Fíjate en el número de maps y reduce.
+
+3.3.4 La pantalla del NodeManager para una de las dos aplicaciones.
+
+Pregunta 4. Ganglia.
+
+
+4.1 En la pantalla principal de Ganglia, al final, se nos muestra una métrica por defecto, load_one, para cada uno de los nodos del clúster.
+
+4.1.1 Identifica mediante la IP privada, cual es el nodo principal y cuales los centrales. Indica dónde has encontrado esa información y aporta una captura de pantalla parcial que lo demuestre.
+
+4.1.2 Aporta pruebas de los nodos en los que se han ejecutado la tarea Hive y la tarea Spark. Indica dónde has encontrado esa información y aporta una captura de pantalla parcial que lo demuestre.
+
+4.1.3 Copia e interpreta los cuatro gráficos, de la métrica referida al principio, según la hora y el nodo o los nodos en los que las aplicaciones se han ejecutado.
+
+4.2 Investiga cómo parar uno de los nodos centrales. Para uno de los nodos y aporta una captura de pantalla de la interfaz de Ganglia que muestre gráficamente que el nodo está caido.
+
+NOTA IMPORTANTE
+
+Para todas las preguntas es necesario entregar un documento PDF en el que aparezca la pregunta junto con tu respuesta razonada. 

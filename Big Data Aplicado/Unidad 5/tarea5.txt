@@ -1,0 +1,48 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+La empresa Telco Max Spain es una operadora virtual de telecomunicaciones con más de 5 años de presencia en el mercado español. Al ser una operadora virtual, no tiene infraestructura de telecomunicaciones propia, sino que usa las redes de los operadores principales, pero cuenta con una cartera de más de 1 millón de clientes, tanto particulares como empresas.
+
+Su negocio lo tiene dividido en 3 áreas: particulares, soho (pequeña y mediana empresa) y grandes cuentas.
+
+En cuanto a sus sistemas, destacan:
+
+Un CRM de particulares, donde almacena todos los contactos con clientes particulares, así como los contratos, servicios contratados, etc.
+Un CRM de clientes soho, donde almacena el mismo tipo de información que en el caso del CRM de particulares.
+Un CRM de grandes cuentas, que contiene información similar, aunque con un modelo de datos más complejo, ya que las grandes cuentas tienen jerarquías de cuentas y responsables de cada cuenta.
+Un sistema de facturación y contabilidad que cada mes toma los datos de los distintos CRM y genera las facturas y cargos asociados.
+Una plataforma de marketing en la que se guardan las campañas, los contactos con leads (no clientes con los que se tienen contactos comerciales) y todo el camino de los clientes desde que entran por cualquier canal de contacto hasta que son clientes. A partir de ese punto, es el sistema CRM el que pasa a tener el control de las interacciones y los datos del cliente.
+Una plataforma de contact-center, que da soporte a las operaciones del equipo de televenta, y que contiene la información de los contactos que se tiene con los no clientes por este canal, y al igual que en el caso de la plataforma de marketing, cede la gestión del contacto al CRM una vez ese convierte en cliente.
+Un sistema ERP con las operaciones internas: nóminas, vacaciones, contrataciones, presupuestos, etc.
+Cada canal (la web, la aplicación móvil o las oficinas) tiene sus propias aplicaciones, que contienen información específica de ese canal (accesos a la web, operaciones realizadas, etc.) así como algo de información clientes solapada con el resto de sistemas.
+Además, recibe información de las operadoras y otros agentes externos a diferentes servidores SFTP, por ejemplo, con el tráfico generado en las redes para abonar el alquiler de las infraestructuras, y otros datos externos como informes de mercado, etc.
+Tiene un sistema informacional con diferentes procesos de ETL que toman la información de los sistemas CRM y de facturación, y que vuelcan los datos ya transformados y agregados a un Datawarehouse, con el que se construyen los informes o reportes de negocio, etc.
+Pese a que el nivel de madurez de los diferentes sistemas es correcta y que tiene un buen sistema de reporting, saben que hay mucha información que no están utilizando para hacer los análisis, como puede ser la información de todos los sistemas que no son el CRM o el sistema de facturación, y saben que si tuvieran toda la información de un cliente, desde que se tiene el primer contacto con él, pasando por todas las iteraciones que se tiene con él como llamadas al contact center, el uso que hace de los servicios en la aplicación web, etc. podrían mejorar mucho la toma de decisiones, especialmente para mejorar una métrica que es fundamental en su negocio: la tasa de rotación o de baja de clientes.
+
+Por ello, el Comité de Tecnología ha decidido invertir en una plataforma Big Data que les permita almacenar toda la información de los diferentes sistemas, y además, crear nuevos casos de uso como modelos predictivos de abandono de clientes, etc.
+
+El equipo de Tecnología ya conoce Hadoop y la ha elegido como la tecnología que dará soporte a este nuevo sistema, pero deben en primer lugar definir la arquitectura que montarán, si harán un despliegue en cloud o en su propia infraestructura (también llamado on-premise), y si montarán un modelo de arquitectura como Data Lake, u otros modelos que están apareciendo últimamente, como Data Mesh.
+
+En esta tarea les ayudarás a tomar las decisiones que tienen por delante.
+
+¿Qué te pedimos que hagas?
+Para esta tarea no es necesario instalar ningún software, sino que se trata de razonar una serie de preguntas relacionadas con la arquitectura que se quiere implantar.
+
+Pregunta 1: Explica qué es un Datawarehouse y un Datamart, y qué limitaciones más importantes tienen.
+
+Pregunta 2: Razona si sería posible montar un Datawarehouse utilizando Hadoop como tecnología.
+
+Pregunta 3: Describe qué pasos debería dar una empresa, una vez que ha decidido desplegar una plataforma de Hadoop en la nube, desde su concepción hasta su uso.
+
+Pregunta 4: Razona qué es un entorno multitenancy y explica cómo Hadoop consigue ser una tecnología multitenancy.
+
+Pregunta 5: Describe cuáles son las principales diferencias entre Data Lake y Data Mesh.
+
+Pregunta 6: Describe cuáles son las principales diferencias entre Data Lake y Datawarehouse.
+
+NOTA IMPORTANTE
+
+Para todas las preguntas es necesario entregar un documento en el que aparezca la pregunta junto con tu respuesta razonada. Incluye cualquier diagrama que consideres interesante para explicar la solución que has desarrollado.
+
+El principal objetivo de esta tarea es ayudarte a estudiar y comprender los fundamentos de la Unidad Temática. La respuesta tiene que ser razonada (breve, concisa y completa) basándose en los contenidos de la Unidad Temática.
+Cualquier sospecha sobre la copia directa desde cualquier IA hará que la tarea sea devuelta sin corregir.

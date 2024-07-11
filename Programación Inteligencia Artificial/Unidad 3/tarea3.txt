@@ -1,0 +1,35 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Miguel ha pedido a su compañera Lorena que pruebe distintos entornos de programación para trabajar con datos y elaborar un modelo de aprendizaje automático para alguno de los procesos de Pick&Deliver que no han resuelto con APIs de proveedores en la nube.
+Lorena se ha ido documentando sobre varias posibilidades, y conoce, sobre todo, la opción de Jupyter Notebooks. Pero Miguel le ha recomendado que pruebe Google Colab, que son notebooks de Jupyter en formato online, con opciones muy enfocadas a compartir con un equipo.
+Lorena se sorprende de lo sencillo y rápido que es empezar a trabajar con Colab. No necesita instalar nada y solo necesita una conexión a internet para contar con un entorno virtual habilitado para ejecutar código en Python.
+    
+¿Qué te pedimos que hagas?
+Apartado 1: Programa tareas sencillas con Python en Colab
+
+    Accede a la página web de Colab a través de este enlace: https://colab.research.google.com/notebooks/intro.ipynb
+    Lee el texto de introducción que encontrarás en la página y prueba a ejecutar alguno de los ejemplos de código.
+    Tras revisar dicha introducción, te pedimos que crees tu propio cuaderno (notebook) con algo de código. Para ello, ve al menú Archivo y pincha en Nuevo cuaderno.
+    Pon título al cuaderno pinchando en Untitled.ipynb en la parte superior de la página y escribiendo un nombre para el cuaderno, atendiendo a la Indicaciones de Entrega en la Información de Interés.
+    En la primera celda de código, escribe y ejecuta esta orden: "import this"
+    En una siguiente celda, escribe el código necesario en Python para crear una lista de 10 nombres de ciudades y luego haz que se muestre utilizando print().
+    En una nueva celda de código, crea una nueva lista con 10 nombres de artistas o cantantes, y utiliza print() para mostrarla.
+    En una nueva celda de código, crea un diccionario en el que la clave sea el nombre del artista y el valor sea el nombre de una ciudad. 
+    En una nueva celda de código, escribe el código necesario para que, al ejecutarlo, se muestre en pantalla "Estos son los conciertos para esta semana: " + relación de artistas y ciudades
+    En una nueva celda de código, escribe el código necesario para cambiar de ciudad a todos los artistas para un nuevo concierto de su gira. Vuelve a programar también que se muestre la relación de artistas y ciudades. Genera una rotación sobre la lista de ciudades, vuelve a construir el diccionario y genera la nueva lista de conciertos, 
+
+Apartado 2: Utiliza el lenguaje de marcación para dar contexto y documentar el notebook.
+
+    Lee la documentación sobre lenguaje de marcación en Jupyter notebooks.
+    Incluye celdas de texto en tu cuaderno, entre las celdas de código, comentando los distintos fragmentos de código. Las celdas de texto deben ser ricas en formato e incluir al menos una vez los siguientes elementos: 
+        Título y subtítulo.
+        Texto en negrita y en itálica.
+        Enlaces.
+        Una imagen.
+    En estas celdas de texto, además de comentar el código, comenta los problemas que has tenido, cómo lo has solucionado, indica distintas alternativas (si procede) e incluye enlaces a las páginas que te han resultado interesante.
+    Por último, en el menú archivo, pincha en la opción de descargar el notebook en formato ipynb
+
+NOTA IMPORTANTE
+
+Para todos los apartados es necesario entregar las capturas de pantalla de los principales pasos realizados. En dicha presentación, incluir enlace abierto al notebook para que cualquier persona con el enlace pueda acceder a él.

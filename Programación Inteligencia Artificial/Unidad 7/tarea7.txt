@@ -1,0 +1,31 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Miguel y Lorena están embarcados en la tarea de ir afinando cada vez más su modelo basado en redes neuronales convolucionales, y van probando diferentes técnicas e incluso ya están recurriendo a modelos pre-entrenados, como los VGG o ResNet.
+Andrew, el compañero de sistemas, se les acerca en la hora de la comida, y les dice "Oye, realmente me gustaría saber un poco mejor en qué consisten esos modelos que estáis utilizando ahora. Si os invito a un café, ¿me enseñaríais algún modelo sencillo de red convolucional?"
+Miguel sabe que Andrew tiene cierta base técnica y puede comprenderlo si lo prueban con un modelo y un dataset sencillos. 
+"Ven, que vas a entrenar tu primera convnet para reconocer imágenes de dígitos manuscritos" le contesta Miguel abriendo el portátil sobre la mesa.    
+
+¿Qué te pedimos que hagas?
+Apartado 1: Carga el dataset y prepara los datos
+
+Abre el notebook CNN on MNIST y revisalo entero. En principio, es un modelo demasiado sencillo, así que ahora te animamos a que crees tu propio modelo.
+Inicia un nuevo notebook, y carga el dataset desde Keras, estudia y comenta su contenido, estructura y dimensiones. 
+Prepara los datos para poder ser ingeridos por una capa convolucional. Explica la transformaciones realizadas y muestra alguna imagen antes y después de la transformación.
+El cuaderno contiene un error, hace referencia a unas librerías ya obsoletas. Para que funcione correctamente cambia las referencias a tensorflow.python.keras por tensorflow.keras.
+Apartado 2: Crea el modelo convolucional.
+
+Entrena y evalúa el modelo proporcionado. Este ya obtiene buenos resultados.
+Ahora crea un modelo con varias capas Conv2D y varias capas max-pooling o strides, ajusta las neuronas de cada capa. 
+Recuerda añadir una capa neuronal interna y una capa neuronal de salida, con tantas neuronas como clases de salida necesitamos. Prescinde de las capas de Dropout. 
+Puedes probar con varios modelos y buscar uno que obtenga aún mejores resultados.
+Apartado 3: Crea un modelo no convolucional.
+ 
+Crea un modelo no convolucional a partir del aterior, eliminando las capas convolucionales. Ajusta las capas y sus dimensiones.
+Apartado 4: Entrena y evalúa los modelos. 
+Configura los parámetros, entrena y evalúa los modelos con los datos de test y obtén la precisión real.
+Compara los resultados y tiempos de entrenamiento de tu RNC con la RNC original.
+Compara los resultados de tu RNC con la RNP. ¿Cuál es mejor? ¿por qué crees? Razona tu respuesta.
+NOTA IMPORTANTE
+
+Para todos los apartados es necesario incluir las capturas de pantalla de los principales pasos realizados en el documento de la entrega. En dicha presentación, incluir enlace abierto al notebook con el código para que cualquier persona con el enlace pueda acceder a él.

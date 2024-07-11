@@ -1,0 +1,100 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+La Federación de Enseñanza del sindicato mayoritario X de Andalucía quiere afrontar el estudio de la plantilla orgánica de los centros públicos andaluces.
+El objetivo inmediato es poder analizar la evolución de esta plantilla en los últimos años, comparar esta evolución con la de los centros concertados y privados, y, para el futuro, aplicar  aprendizaje automático para predecir el número de profesores necesarios en un curso escolar. Este conocimiento les situaría con una gran ventaja en las negociaciones con el gobierno andaluz.
+Para cumplir estos objetivos han contratado a Raúl. Raúl ha trabajado muchos años como programador web full stack en la empresa privada y, para reciclarse, ha realizado el Curso de Especialización en Inteligencia Artificial y Big Data.
+Para empezar, Raúl va a estudiar la plantilla orgánica de los centros docentes públicos. Después afrontará la recolección de los datos de los centros privados, escolarización, natalidad etc., como analizarlos y visualizarlos. 
+La plantilla orgánica de los Centros públicos se publica anualmente en el BOJA en formato PDF. En el portal de Datos abiertos de la Junta de Andalucía podemos encontrar un archivo con esta plantilla en formato CSV. El archivo se actualiza anualmente. En el sindicato cuentan con los archivos del curso 21/22 y 22/23.
+Estos dos archivos no son muy grandes, pero ante la previsión del futuro crecimiento de datos, Raúl va a trabajar con un clúster de AWS con Hive y Spark para analizar estos  archivos y para hacer una primera comparativa de la plantilla de los dos últimos cursos escolares.
+
+¿Qué te pedimos que hagas?
+Para esta tarea  es necesario crear un clúster EMR en el laboratorio AWS que se te ha proporcionado en el módulo y un cuaderno Google Colab.
+
+La entrega final será un archivo PDF con las preguntas que se formulan y las respuestas que se solicitan.
+
+ADVERTENCIA: No llenes el PDF de capturas innecesarias. Solo se evaluarán aquellas capturas que se pidan explícitamente y que tengan un tamaño legible en el PDF. 
+
+Práctica 1. Hive.
+
+Resumen. En el clúster, con Hive y Hue, crearemos una tabla externa sobre el archivo plantilla2223.csv que se aporta como recurso. Sobre esta tabla realizaremos una serie de consultas interactivas que nos ayudarán a comprender la información del archivo. A continuación crearemos una tabla interna Hive particionada por el campo CUERPO.
+
+Pregunta 1. 
+
+A través de la herramienta Hue, crea una base de datos con tu nombre completo, por ejemplo, RaulGomezSanchez. En esta base de datos crearás una tabla externa Hive con los datos del archivo plantilla2223.csv. 
+
+Respuesta: Responde con la consulta de creación de la tabla y aporta una captura de pantalla con la información de la tabla creada (icono i, show details) desplegada. Debe observarse claramente el nombre de la base de datos, el nombre de la tabla y el contenido de la primera fila.
+
+Pregunta 2.
+
+Escribe una consulta para saber cuántas filas tiene la tabla creada sin la cabecera. Responde con la consulta y el número de filas que has obtenido.
+
+Pregunta 3.
+
+Escribe la consulta necesaria para mostrar los distintos cuerpos de la tabla. Responde con la consulta y el número de cuerpos obtenidos.
+
+Pregunta 4.
+
+Escribe una consulta para saber cuántas plazas de maestros hay en la tabla. Responde con la consulta y el número de plazas de maestros que hayas obtenido.
+
+Pregunta 5.
+
+Escribe una consulta para saber cuántas plazas de maestros hay en la provincia de Jaén. Responde con la consulta y el número de plazas de maestros que hayas obtenido.
+
+Pregunta 6.
+
+Escribe una consulta que muestre los centros de Granada y el número de plazas de Profesores técnicos de cada uno de ellos. Responde con la consulta,  el número de resultados que hayas obtenido y las plazas de Profesores técnicos que hay en el Zaidín-Vergeles.
+
+Pregunta 7.
+
+Escribe una consulta para mostrar el total de plazas de Andalucía agrupada por cuerpo. Responde con la consulta y el número de maestros que hayas obtenido.
+
+Pregunta 8.
+
+Escribe una consulta para mostrar el total de plazas de Sevilla agrupada por cuerpo. Responde con la consulta y el número de maestros de Sevilla.
+
+Pregunta 9.
+
+Crea una tabla administrada Hive con la tabla externa que has creado en la pregunta 1. Esta tabla estará particionada por el campo cuerpo.
+
+Respuesta: Responde con las sentencias que has utilizado para crear esta tabla y aporta una captura de pantalla del directorio /user/hive/warehouse/aquítubasededatos.db/aquítutablaadministrada en la que se observen claramente las particiones creadas en HDFS.
+
+Práctica 2. Spark.
+
+Esta práctica la implementaras en un cuaderno de Google Colab con Hadoop y Spark instalados.
+
+Pregunta 1.
+
+Crea una sesión pyspark.sql con soporte Hive.
+
+Respuesta: Las sentencias necesarias para crear esta sesión.
+
+Pregunta 2.
+
+Crea un DataFrame con el archivo plantilla2122.csv. Crea un DataFrame con el archivo plantilla2223.csv. Cuenta el número de filas de cada uno de los DataFrame. Debes obtener 35.504 para el curso 21/22 y 35.656 para el curso 22/23.
+
+Respuesta: Instrucción de lectura del primer archivo. Instrucción de lectura del segundo archivo.
+
+Pregunta 3.
+
+Mediante instrucciones  SELECT, obtén un nuevo DataFrame que contenga las provincias, el número de plazas del curso 21-22 por provincia, el número de plazas del curso 22-23 por provincia y la diferencia de plazas entre ambos cursos, ordenado por provincia.
+
+Respuesta: Escribe las instrucciones de creación del DataFrame y el resultado de mostrar el nuevo DataFrame.
+
+Pregunta 4.
+
+Escribe qué provincia es la que ha tenido un mayor crecimiento de plantilla entre los dos cursos.
+
+Escribe qué provincia es la que ha tenido un menor crecimiento de plantilla entre los dos cursos.
+
+Pregunta 5.
+
+Muestra una gráfica de barras apiladas con las plazas de ambos cursos por provincia.
+
+Respuesta: Pega en el PDF una captura de la gráfica obtenida.
+
+Pregunta 6.
+
+Guarda en Hive el DataFrame creado en la pregunta 3.
+
+Respuesta: Escribe la instrucción para guardar el DataFrame en Hive y adjunta una captura de pantalla de la sección de archivos con el

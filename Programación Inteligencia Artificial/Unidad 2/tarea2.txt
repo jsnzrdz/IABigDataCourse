@@ -1,0 +1,35 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+Miguel, tras unas semanas en Pick&Deliver, se ha familiarizado con los procesos de la empresa y con los servicios que ofrecen a sus clientes. Por otro lado, ha estado explorando todas las herramientas disponibles en las plataformas más importantes de servicios de software en la nube que están enfocadas en tareas de inteligencia artificial.
+En el equipo de operaciones, todos quieren ver ya la inteligencia artificial en acción, y le preguntan a Miguel qué está preparando. "¡Qué bien que preguntéis! Se me han ocurrido un par de ideas que os pueden gustar"
+Aunque hay bastantes cosas que probar y mejorar, les propone empezar por detectar el grado de satisfacción de los clientes finales a través de análisis de su expresión facial en fotos tomadas durante la entrega del pedido, para aquellos que den su consentimiento. ¿Cuál podría ser la mejor herramienta para hacer ésto?
+Por otro lado, también quieren detectar el grado de satisfacción a través de las valoraciones que los clientes finales puedan escribir en el formulario que hay para ello en la web. ¿Será posible detectar si se trata de una opinión positiva o negativa?
+    
+    
+¿Qué te pedimos que hagas?
+Apartado 1: Comparar dos herramientas de reconocimiento de imagen en la nube
+
+    Selecciona varias imágenes de rostros de personas expresando distintas emociones en un repositorio de imágenes gratuitas
+    Accede a la interfaz de prueba de Google Vision AI a través de este enlace. Sin pulsar en ningún botón o menú, haz scroll hacia abajo hasta llegar a la ventana para cargar imágenes. Sube una de las fotos y analiza los resultados que muestra la consola. También puedes observar la llamada y respuesta en formato JSON.
+    Repite el proceso con todas las fotos, analizando en qué grado se captan correctamente las emociones.
+    Accede a la interfaz de prueba de Rekognition a través de este enlace. Si es posible, pon delante de la cámara un dispositivo con una de las imágenes descargadas, y si no, Pon tú mismo un gesto de emoción para que lo capte la cámara. Pulsa el botón "Detect Labels" y analiza los resultados que arroja la herramienta.
+    Repite el proceso con varias emociones y analiza si la herramienta es capaz de detectar si la persona esta feliz, triste, emocionada, enojada, etc.
+    Elabora una tabla donde compares las dos herramientas, haciendo hincapié en los aspectos que consideres más relevantes.
+    Finalmente, escribe una reflexión en pocas líneas, indicando cuál sería la mejor herramienta para analizar que un cliente está satisfecho o feliz con el servicio prestado. Según se plantea en el Caso Práctico.
+
+Apartado 2: Comparar dos herramientas de análisis de lenguaje natural para análisis de sentimiento.
+
+    Accede a la interfaz de prueba de AWS Comprehend a través de este enlace.
+        Escribe un comentario como si estuvieses descontento por cómo te han entregado un paquete que estaban esperando y pulsa el botón para analizarlo.
+    Revisa los resultados que se muestran en el apartado "Sentiment" para comprobar si detecta negatividad y en qué grado.
+    Accede a la interfaz de prueba de IBM Watson a través de este enlace.
+    Pulsa en la opción "TRY YOUR OWN" > "Input Text" e introduce en el campo de texto el mismo comentario que en la interfaz anterior. Pulsa el botón para analizar dicho texto.
+    Revisa los resultados en el apartado "Classification" > "Sentiment" para comprobar si detecta la negatividad del comentario y en qué grado
+    Finalmente, escribe una breve reflexión comparando ambos análisis y cuál podría ser la herramienta más adecuada para analizar el grado de satisfacción de clientes finales de una empresa que se dedica a la logística y reparto.
+
+NOTA IMPORTANTE
+
+Para todos los apartados es necesario entregar las capturas de pantalla de los principales pasos realizados, con una breve explicación y una reflexión final con las conclusiones sobre la herramienta que se elegiría en función de lo que se quiere analizar.
+ 
+

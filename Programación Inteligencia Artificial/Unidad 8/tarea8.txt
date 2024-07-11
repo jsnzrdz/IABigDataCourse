@@ -1,0 +1,44 @@
+1.- Descripción de la tarea.
+
+Caso práctico
+El equipo de inteligencia artificial en el que están Miguel y Lorena han estado participando en un hackathon solidario organizado por una ONG para ayudar a digitalizar y automatizar tareas en comunidades sin recursos o con alto riesgo de pobreza. Aunque aun queda trabajo por hacer en el proyecto, hoy deben exponer y presentar las líneas generales del mismo, para tratar de obtener más recursos de los patrocinadores y  convencer a más gente para colaborar en el desarrollo e implementación del mismo.
+Han ido recogiendo todas las ideas y decisiones en un documento de anteproyecto, que es el que han entregado.
+Lorena, además, ha preparado una presentación, resumiendo en cada diapositiva cada uno de los puntos del anteproyecto. Frente a un público de inversores, directivos público y privados y profesionales independientes del mundo del hardware y del software, Lorena hace su presentación, y se da cuenta, a medida que va avanzando, de que es un proyecto más grande e inspirador de lo que habían pensado cuando se metieron en ello. 
+Cuando termina la ronda de presentaciones, varios asistentes se acercan a hablar con ellos, ofreciendo su ayuda.  
+
+¿Qué te pedimos que hagas?
+¿Qué te pedimos que hagas?
+Vas a elaborar un anteproyecto o documento de planteamiento de un proyecto de inteligencia artificial. Se trata de un documento breve (no más de 10 páginas) que describe las partes y elementos principales de lo que será después el proyecto. Es el documento de partida y la hoja de ruta para el mismo. 
+
+Apartado 1: Introducción
+
+Haz una descripción breve del proyecto que se realizaría.
+Debe ser breve y sintetizar solo lo más importante.
+Debe ser objetivo e impersonal. 
+Apartado 2: Marco y justificación.
+
+Describe el escenario en el que se ejecutará el proyecto.
+Debes mostrar la necesidad que existe del sistema que se propone en el proyecto.
+Puedes apoyarte en una historia ficticia con personajes, pero no te extiendas (recuerda que el documento completo debe ser breve). 
+Apartado 3: Referencias y casos similares.
+ 
+Busca y comenta entre uno y tres proyectos parecidos a lo que propones.
+Pueden ser proyectos que cubran solo alguna parte de lo que tú propones.
+Mejor si son proyectos que han obtenido éxito en su misión.
+Referéncialos adecuadamente.
+Apartado 4: Propuesta de proyecto.
+Indica cuál es el objetivo principal en una sola frase.
+Describe los objetivos secundarios si los hay.
+Incluye una imagen con un esquema sencillo de las partes y elementos del sistema.
+Haz una descripción detallada del sistema y sus partes: modelo, interfaz, infraestructura,etc.
+Realiza un diagrama de Gant con la agenda y plazos de ejecución del proyecto y su implantación.
+Elabora un listado de los recursos necesarios o un presupuesto orientativo.
+Apartado 5 (opcional): Sinergias e iniciativas de colaboración.
+Busca y presenta iniciativas tanto públicas como privadas que supongan una posible fuente de financiación o colaboración para el proyecto.
+Pueden ser programas europeos o de grandes empresas tecnológicas.
+Pueden ser proyecto más generales en los que el proyecto cubra una parte de los objetivos.
+Apartado 6: Valoraciones finales.
+Aporta una reflexión desde tu visión y apreciación personal de proyecto
+NOTA IMPORTANTE
+
+El documento de la entrega debe ser concreto y sintetizar las ideas fundamentales del proyecto. No debe ser demasiado escueto, pero tampoco demasiado extenso. Es imprescindible que se indique el tipo de algoritmo y las técnicas que se van a utilizar. También se debe describir la aplicación o interfaz con el usuario. Finalmente, es imprescindible indicar la plataforma o infraestructura en la que se va a desplegar.
