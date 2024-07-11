@@ -12,6 +12,6 @@ La competencia general de este curso de especialización consiste en programar y
 - Big Data aplicado.
 
 ## Estructura del contenido
-Cada módulo se divide en una serie de unidades. Cada una de ellas cuenta con un PDF de explicación de la teoría asociada a esa unidad y una tarea propuesta. Algunos módulos cuenta con archivos de información adicional.
+Cada módulo se divide en una serie de unidades. Cada una de ellas cuenta con un mapa conceptual de la unidad, un PDF de explicación de la teoría asociada a esa unidad y una tarea propuesta. Algunos módulos cuenta con archivos de información adicional.
 
 [Ficha del curso](https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/contenidos/-/contenidos/detalle/0-1-5-2-8-ce-iabd-inteligencia-artificial-y-big-data)
